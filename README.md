@@ -1,7 +1,5 @@
 # Sentiment Analysis Using Recurrent Neural Network (RNN)
 
-![Sentiment Analysis Banner](https://via.placeholder.com/800x200/2E7D32/FFFFFF?text=RNN+Sentiment+Analysis)
-
 ## Project Description
 
 This project implements a simple Recurrent Neural Network (RNN) for binary sentiment analysis on text. Its primary goal is to classify reviews or other text snippets as either **positive** or **negative** sentiment. The model is trained on a dataset of text reviews and is designed to understand linguistic nuances to make accurate sentiment predictions.
@@ -15,4 +13,21 @@ Sentiment analysis is a crucial field within Natural Language Processing (NLP) t
 * **RNN Model:** Builds and trains a Recurrent Neural Network model using TensorFlow/Keras, leveraging RNN's ability to process sequential data.
 * **Easy Inference:** A straightforward interface to test sentiment on new sentences.
 
-## Project Structure
+## Requirements
+
+Ensure you have the following dependencies installed:
+
+* Python 3.x
+* TensorFlow / Keras
+* NumPy
+* Pandas
+* NLTK (for text preprocessing)
+
+You can install all necessary dependencies using `pip`:
+
+```bash
+pip install tensorflow numpy pandas nltk
+
+import nltk
+nltk.download('stopwords')
+# nltk.download('punkt') # Optional, if using NLTK's tokenizer
